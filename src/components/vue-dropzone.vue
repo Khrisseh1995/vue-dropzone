@@ -1,9 +1,5 @@
 <template>
-  <div :id="id" ref="dropzoneElement" :class="{ 'vue-dropzone dropzone': includeStyling }">
-    <div v-if="useCustomSlot" class="dz-message">
-      <slot>Drop files here to upload</slot>
-    </div>
-  </div>
+  
 </template>
 
 <script>
